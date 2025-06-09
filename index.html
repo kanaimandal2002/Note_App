@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Notes App</h1>
+            <div class="toolbar">
+                <button id="new-note-btn">New Note</button>
+                <input type="text" id="search-notes" placeholder="Search notes...">
+            </div>
+        </header>
+        
+        <div class="main-content">
+            <aside class="sidebar">
+                <div class="notes-list" id="notes-list">
+                    <!-- Notes will be listed here -->
+                </div>
+            </aside>
+            
+            <main class="editor-container">
+                <div id="editor"></div>
+                <div class="editor-actions">
+                    <button id="save-note-btn">Save</button>
+                    <button id="delete-note-btn">Delete</button>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
