@@ -1,1 +1,174 @@
+:root {
+    --primary-color: #4a6fa5;
+    --secondary-color: #166088;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --danger-color: #dc3545;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.toolbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.toolbar button, .editor-actions button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#new-note-btn {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+#new-note-btn:hover {
+    background-color: #e2e6ea;
+}
+
+#search-notes {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: white;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+}
+
+.notes-list {
+    padding: 0.5rem;
+}
+
+.note-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.note-item:hover {
+    background-color: #f0f0f0;
+}
+
+.note-item.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.note-item-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.note-item-preview {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.note-item.active .note-item-preview {
+    color: #eee;
+}
+
+.editor-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#editor {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.editor-actions {
+    padding: 1rem;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    gap: 0.5rem;
+}
+
+#save-note-btn {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#save-note-btn:hover {
+    background-color: #0d4b6e;
+}
+
+#delete-note-btn {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+#delete-note-btn:hover {
+    background-color: #c82333;
+}
+
+.ql-toolbar {
+    background-color: white;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+}
+
+.ql-container {
+    border: none !important;
+    font-size: 1rem;
+}
+
+.ql-editor {
+    min-height: 100%;
+    padding: 1.5rem !important;
+}
