@@ -63,6 +63,14 @@ All notes are stored in the browser's `localStorage`, meaning:
 - Notes are only accessible in the browser where they were created
 - No data is sent to any server - everything stays on your device
 
+## Technical Details
+
+- **Editor**: Quill.js (v1.3.6)
+- **Storage**: localStorage API
+- **Browser Support**: Modern browsers (Chrome, Firefox, Safari, Edge)
+- **Dependencies**: 
+  - Quill.js CSS and JS (loaded from CDN)
+  - No other external dependencies
 
 ## Customization
 
@@ -72,6 +80,11 @@ You can easily customize the app by modifying:
 2. `app.js` - Modify note handling logic or add features
 3. `index.html` - Adjust the HTML structure
 
+## Known Limitations
+
+- No image upload support (only URLs)
+- No cloud sync or backup
+- Limited to browser storage capacity (~5MB typically)
 
 ## Future Enhancements
 
@@ -86,4 +99,4 @@ Planned future features:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).# Note_App
+This project is open source and available under the [MIT License](LICENSE).
