@@ -96,7 +96,3 @@ Planned future features:
 - Dark mode
 - IndexedDB for larger storage
 - Note sharing options
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
