@@ -2,6 +2,11 @@
 
 A feature-rich notes application with rich text formatting capabilities that stores all data locally in the browser.
 
+## Live Demo
+
+You can view a live version of this tool at [(https://kanaimandal2002.github.io/note_app/)]
+
+
 ## Features
 
 - **Rich Text Editing**:
