@@ -68,15 +68,6 @@ All notes are stored in the browser's `localStorage`, meaning:
 - Notes are only accessible in the browser where they were created
 - No data is sent to any server - everything stays on your device
 
-## Technical Details
-
-- **Editor**: Quill.js (v1.3.6)
-- **Storage**: localStorage API
-- **Browser Support**: Modern browsers (Chrome, Firefox, Safari, Edge)
-- **Dependencies**: 
-  - Quill.js CSS and JS (loaded from CDN)
-  - No other external dependencies
-
 ## Customization
 
 You can easily customize the app by modifying:
