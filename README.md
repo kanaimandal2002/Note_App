@@ -4,7 +4,7 @@ A feature-rich notes application with rich text formatting capabilities that sto
 
 ## Live Demo
 
-You can view a live version of this tool at [(https://kanaimandal2002.github.io/note_app/)]
+You can view a live version of this tool at [(https://kanaimandal2002.github.io/Note_App/)]
 
 
 ## Features
