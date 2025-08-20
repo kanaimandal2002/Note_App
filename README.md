@@ -1,4 +1,4 @@
-# Notes App with Rich Text Formatting
+# Notes App
 
 A feature-rich notes application with rich text formatting capabilities that stores all data locally in the browser.
 
