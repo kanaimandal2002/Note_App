@@ -82,9 +82,6 @@ You can easily customize the app by modifying:
 - No cloud sync or backup
 - Limited to browser storage capacity (~5MB typically)
 
-## Future Enhancements
-
-Planned future features:
 
 - Markdown support
 - Note categories/tags
