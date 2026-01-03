@@ -54,7 +54,6 @@ No installation required! This is a client-side only application.
 |----------|--------|
 | Ctrl+S / Cmd+S | Save current note |
 | Ctrl+N / Cmd+N | Create new note |
-| Ctrl+T / Cmd+T | Focus note title |
 
 ### Rich Text Formatting
 
