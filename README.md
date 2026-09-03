@@ -6,7 +6,6 @@ A feature-rich notes application with rich text formatting capabilities that sto
 
 You can view a live version of this tool at [(https://kanaimandal2002.github.io/Note_App/)]
 
-
 ## Features
 
 - **Rich Text Editing**:
@@ -36,7 +35,7 @@ You can view a live version of this tool at [(https://kanaimandal2002.github.io/
 No installation required! This is a client-side only application.
 
 1. Download the project files
-2. Open `index.html` in any modern browser (Chrome, Firefox, Safari, Edge)
+2. Open `index.html` in any modern browser
 
 ## Usage
 
